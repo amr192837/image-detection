@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 4
+names: ['hat', 'no hat', 'no vest', 'vest']
+
+roboflow:
+  workspace: qnadas
+  project: pythenaai5g-project
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/qnadas/pythenaai5g-project/dataset/1
